@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Il mio negozio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .prodotti {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .prodotto {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .prodotto img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .prezzo {
+            font-size: 18px;
+            color: green;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🛒 Il mio negozio</h1>
+
+<div class="prodotti">
+
+    <div class="prodotto">
+        <img src="https://via.placeholder.com/300" alt="Prodotto 1">
+        <h2>Prodotto 1</h2>
+        <p class="prezzo">€20</p>
+        <a class="btn" href="https://wa.me/393331234567">Contattami su WhatsApp</a>
+    </div>
+
+    <div class="prodotto">
+        <img src="https://via.placeholder.com/300" alt="Prodotto 2">
+        <h2>Prodotto 2</h2>
+        <p class="prezzo">€35</p>
+        <a class="btn" href="https://wa.me/393331234567">Contattami su WhatsApp</a>
+    </div>
+
+</div>
+
+</body>
+</html>
