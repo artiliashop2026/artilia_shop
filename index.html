@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <title>Artilia</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        .prodotti {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-        .prodotto {
-            background: black;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .prodotto img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        .prezzo {
-            font-size: 18px;
-            color: black;
-            margin: 10px 0;
-        }
-        .btn {
-            display: inline-block;
-            padding: 15px 15px;
-            background: #25D366;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Artilla Shop</title>
+
+<style>
+body{
+  font-family: Arial;
+  background:#f5f5f5;
+  margin:0;
+  padding:20px;
+}
+
+h1{
+  text-align:center;
+}
+
+.prodotti{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  max-width:1000px;
+  margin:auto;
+}
+
+.prodotto{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+.prodotto img{
+  max-width:100%;
+  border-radius:10px;
+}
+
+.prezzo{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 15px;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+}
+</style>
 </head>
+
 <body>
 
-<h1>🛒 Artilia </h1>
+<h1>🛍 Artilla Shop</h1>
 
-<div class="cappello">
+<div class="prodotti">
 
-    <div class="cappello">
-        <img src="https://via.placeholder.com/300" alt="cappello">
-        <h2>cappello</h2>
-          <p>cappello personallizato</p>
-        <p class="prezzo">€10</p>
-        <a class="btn" href="https://wa.me/393756684175">Contattami su WhatsApp</a>
-    </div>
+<div class="prodotto">
+<img src="maglietta.jpg" alt="Maglietta">
+<h2>Maglietta personalizzata</h2>
+<p class="prezzo">12€</p>
+<a class="btn" href="https://wa.me/393756684175">Ordina su WhatsApp</a>
+</div>
 
-    <div class="maglietta">
-        <img src="https://via.placeholder.com/300" alt="maglietta">
-        <h2>maglietta</h2> 
-         <p>maglietta personallizata</p>
-        <p class="prezzo">€20</p>
-        <a class="btn" href="https://wa.me/393756684175">Contattami su WhatsApp</a>
-    </div>
+<div class="prodotto">
+<img src="cappello.jpg" alt="Cappello">
+<h2>Cappello personalizzato</h2>
+<p class="prezzo">12€</p>
+<a class="btn" href="https://wa.me/393756684175">Ordina su WhatsApp</a>
+</div>
 
 </div>
 
